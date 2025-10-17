@@ -5,10 +5,17 @@ services:
     plan: free                  # use 'starter' or 'standard' for production
     region: oregon              # or frankfurt / singapore / etc.
     buildCommand: |
-      npm install
-      npm run build
+      # Enable pnpm (needed for workspace protocol)
+      corepack enable
+      corepack prepare pnpm@latest --activate
+      # Install dependencies before build
+      pnpm install --frozen-lockfile
+      # Then build
+      pnpm run build
+
     startCommand: |
-      npm run start
+      pnpm start
+
     autoDeploy: true
 
     envVars:
