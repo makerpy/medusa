@@ -165,6 +165,16 @@ export const slugChanges = [
     "filePath": "/www/apps/resources/references/cache/interfaces/cache.ICacheService/page.mdx"
   },
   {
+    "origSlug": "/references/caching/interfaces/caching.ICachingModuleService",
+    "newSlug": "/references/caching-service",
+    "filePath": "/www/apps/resources/references/caching/interfaces/caching.ICachingModuleService/page.mdx"
+  },
+  {
+    "origSlug": "/references/caching/interfaces/caching.ICachingProviderService",
+    "newSlug": "/references/caching-module-provider",
+    "filePath": "/www/apps/resources/references/caching/interfaces/caching.ICachingProviderService/page.mdx"
+  },
+  {
     "origSlug": "/references/cart/ICartModuleService/methods/cart.ICartModuleService.addLineItemAdjustments",
     "newSlug": "/references/cart/addLineItemAdjustments",
     "filePath": "/www/apps/resources/references/cart/ICartModuleService/methods/cart.ICartModuleService.addLineItemAdjustments/page.mdx"
@@ -6510,6 +6520,11 @@ export const slugChanges = [
     "filePath": "/www/apps/resources/references/pricing_models/variables/pricing_models.PriceSet/page.mdx"
   },
   {
+    "origSlug": "/references/product/IProductModuleService/methods/product.IProductModuleService.addImageToVariant",
+    "newSlug": "/references/product/addImageToVariant",
+    "filePath": "/www/apps/resources/references/product/IProductModuleService/methods/product.IProductModuleService.addImageToVariant/page.mdx"
+  },
+  {
     "origSlug": "/references/product/IProductModuleService/methods/product.IProductModuleService.createProductCategories",
     "newSlug": "/references/product/createProductCategories",
     "filePath": "/www/apps/resources/references/product/IProductModuleService/methods/product.IProductModuleService.createProductCategories/page.mdx"
@@ -6668,6 +6683,11 @@ export const slugChanges = [
     "origSlug": "/references/product/IProductModuleService/methods/product.IProductModuleService.listProducts",
     "newSlug": "/references/product/listProducts",
     "filePath": "/www/apps/resources/references/product/IProductModuleService/methods/product.IProductModuleService.listProducts/page.mdx"
+  },
+  {
+    "origSlug": "/references/product/IProductModuleService/methods/product.IProductModuleService.removeImageFromVariant",
+    "newSlug": "/references/product/removeImageFromVariant",
+    "filePath": "/www/apps/resources/references/product/IProductModuleService/methods/product.IProductModuleService.removeImageFromVariant/page.mdx"
   },
   {
     "origSlug": "/references/product/IProductModuleService/methods/product.IProductModuleService.restoreProductCategories",
@@ -6915,6 +6935,11 @@ export const slugChanges = [
     "filePath": "/www/apps/resources/references/product_models/variables/product_models.ProductVariant/page.mdx"
   },
   {
+    "origSlug": "/references/product_models/variables/product_models.ProductVariantProductImage",
+    "newSlug": "/references/product/models/ProductVariantProductImage",
+    "filePath": "/www/apps/resources/references/product_models/variables/product_models.ProductVariantProductImage/page.mdx"
+  },
+  {
     "origSlug": "/references/promotion/IPromotionModuleService/methods/promotion.IPromotionModuleService.addPromotionBuyRules",
     "newSlug": "/references/promotion/addPromotionBuyRules",
     "filePath": "/www/apps/resources/references/promotion/IPromotionModuleService/methods/promotion.IPromotionModuleService.addPromotionBuyRules/page.mdx"
@@ -7078,6 +7103,11 @@ export const slugChanges = [
     "origSlug": "/references/promotion_models/variables/promotion_models.CampaignBudget",
     "newSlug": "/references/promotion/models/CampaignBudget",
     "filePath": "/www/apps/resources/references/promotion_models/variables/promotion_models.CampaignBudget/page.mdx"
+  },
+  {
+    "origSlug": "/references/promotion_models/variables/promotion_models.CampaignBudgetUsage",
+    "newSlug": "/references/promotion/models/CampaignBudgetUsage",
+    "filePath": "/www/apps/resources/references/promotion_models/variables/promotion_models.CampaignBudgetUsage/page.mdx"
   },
   {
     "origSlug": "/references/promotion_models/variables/promotion_models.Promotion",
@@ -7388,6 +7418,11 @@ export const slugChanges = [
     "origSlug": "/references/tax/ITaxModuleService/methods/tax.ITaxModuleService.deleteTaxRegions",
     "newSlug": "/references/tax/deleteTaxRegions",
     "filePath": "/www/apps/resources/references/tax/ITaxModuleService/methods/tax.ITaxModuleService.deleteTaxRegions/page.mdx"
+  },
+  {
+    "origSlug": "/references/tax/ITaxModuleService/methods/tax.ITaxModuleService.getProvider",
+    "newSlug": "/references/tax/getProvider",
+    "filePath": "/www/apps/resources/references/tax/ITaxModuleService/methods/tax.ITaxModuleService.getProvider/page.mdx"
   },
   {
     "origSlug": "/references/tax/ITaxModuleService/methods/tax.ITaxModuleService.getTaxLines",
